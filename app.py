@@ -4,7 +4,6 @@ import numpy as np
 import nltk
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing.sequence import pad_sequences
-from nltk.stem import WordNetLemmatizer
 
 # -------------------------
 # Page Config
@@ -79,23 +78,13 @@ def load_resources():
 
 model, tokenizer = load_resources()
 
-lemmatizer = WordNetLemmatizer()
-
 MAX_LEN = 200
 
 # -------------------------
 # Preprocessing
 # -------------------------
 def preprocess_text(text):
-
-    words = text.lower().split()
-
-    words = [
-        lemmatizer.lemmatize(word)
-        for word in words
-    ]
-
-    return " ".join(words)
+    return text.lower()
 
 # -------------------------
 # Prediction
