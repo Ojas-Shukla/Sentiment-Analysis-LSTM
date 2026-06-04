@@ -112,7 +112,9 @@ Sentiment-Analysis-LSTM/
 
 ## 📸 Application Preview
 
+<img width="1919" height="932" alt="Screenshot 2026-06-04 201207" src="https://github.com/user-attachments/assets/2342a7d1-88ae-4456-ba7b-613d2301187a" />
 
+<img width="1919" height="934" alt="Screenshot 2026-06-04 201236" src="https://github.com/user-attachments/assets/733dd796-8096-492c-9e79-83b95346b3be" />
 
 ---
 
