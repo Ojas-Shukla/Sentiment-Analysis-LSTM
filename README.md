@@ -4,7 +4,7 @@ A Deep Learning-based Sentiment Analysis application that predicts whether a mov
 
 ## 🚀 Live Demo
 
-🔗 sentiment-analysis-lstm-p6opvqwd68r8li5zuiappmb
+🔗 https://sentiment-analysis-lstm-p6opvqwd68r8li5zuiappmb.streamlit.app/
 
 ---
 
